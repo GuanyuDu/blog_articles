@@ -1,7 +1,7 @@
 ---
 title: "使用 Certbot 为网站添加不会“过期”的 TLS 证书"
 date: 2022-03-26T01:40:12+08:00
-weight: 1
+weight: 2
 tags: ["Linux"]
 author: "Guanyu"
 showToc: false
@@ -15,7 +15,9 @@ disableHLJS: false
 disableShare: false
 hideSummary: false
 searchHidden: false
-ShowReadingTime: true
+ShowTags: true
+ShowWordCount: false
+ShowReadingTime: false
 ShowBreadCrumbs: true
 ShowPostNavLinks: true
 cover:
@@ -24,10 +26,6 @@ cover:
     caption: "Let’s Encrypt Logo (CA)" # display caption under cover
     relative: false # when using page bundles set this to true
     hidden: false # only hide on current single page
-editPost:
-    URL: "https://github.com/GuanyuDu/blog_articles"
-    Text: "view from Github" # edit text
-    appendFilePath: true # to append file path to Edit link
 ---
 
 绝大多数云服务提供商本身就有 TLS 证书颁发服务，但是免费的 TLS 证书有效期限仅有一年，且有数量限制，到期后需要重新申请证书、下载再配置到服务器上，每年重新弄一次。
